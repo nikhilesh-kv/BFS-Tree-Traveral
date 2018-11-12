@@ -16,7 +16,6 @@ function parseTree(treeData, searchKey) {
 };
 function findElement(searchKey) {
   var currentNode = queue.shift();
-  console.info(currentNode);
   if(!currentNode) {
     return false;
   }
